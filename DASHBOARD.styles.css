@@ -223,7 +223,6 @@
     grid-template-rows: repeat(3, 155px);
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     width: clamp(500px, 98%, 1000px);
-    border-bottom: 3px solid #FFFFFF;
     margin-left: 12px;
     align-items: left;
   }
@@ -232,6 +231,8 @@
     margin: 5px solid;
     background-color: #FFFFFF;
     border-left: 5px solid rgb(221, 153, 7);
+    border-radius: 8px;
+
   }
 
   div.text {
@@ -284,12 +285,13 @@ border-left: #FFFFFF;
     width: 185px;
     margin-top: 78px;
     margin-left: 1px;
-    font-size: 10px;
+    font-size: 9px;
     display: grid;
-    grid-template-columns: 30% 62.5%;
+    grid-template-columns: 22% 62.5%;
     grid-template-rows: auto;
     align-items: center;
     text-align: left;
+    gap: 1px;
 }
 
 .trending img {
@@ -301,10 +303,7 @@ border-left: #FFFFFF;
 .trending div {
   border-left: #FFFFFF;
 }
- 
-div.trending {
-  border-left: #FFFFFF;
-}
+
    
   
   
